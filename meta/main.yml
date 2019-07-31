@@ -1,0 +1,21 @@
+galaxy_info:
+  role_name: nodejs
+  author: angristan
+  description: Ansible role for Node.js
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  galaxy_tags:
+    - nodejs
+    - debian
+    - ubuntu
+
+dependencies: []
