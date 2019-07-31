@@ -22,5 +22,5 @@ Add this to your `requirements.yml`:
     - name: nodejs
       tags: nodejs
   vars:
-    nodejs_version: 10
+    nodejs_version: 12
 ```
