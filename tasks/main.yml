@@ -1,5 +1,4 @@
 ---
-
 - name: Ensure apt-transport-https is installed
   apt:
     name: apt-transport-https
@@ -10,7 +9,8 @@
 
 - name: Add NodeSource repository
   apt_repository:
-    repo: "deb https://deb.nodesource.com/node_{{ nodejs_version }}.x {{ ansible_distribution_release }} main"
+    update_cache: yes
+    repo: 'deb https://deb.nodesource.com/node_{{ nodejs_version }}.x {{ ansible_distribution_release }} main'
     filename: nodesource
 
 - name: Install Node.js
