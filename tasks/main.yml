@@ -16,4 +16,3 @@
 - name: Install Node.js
   apt:
     name: nodejs
-    state: latest
